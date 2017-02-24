@@ -1,0 +1,29 @@
+@import (reference) './app';
+
+ul.fixed-bottom-tab{
+    .fixed-bottom;
+    .full-width;
+    .bg-ink;
+    .line-height(64);
+    font-size:18px;
+    z-index: 1001;
+    li{
+        .text-center;
+        .text-white;
+        .left;
+        box-sizing: border-box;
+        width:33.33333%;
+        height: 100%;
+        border-right: 1px solid #646464;
+        &:last-child{
+            border-right: 0px;
+        }
+    }
+    .two-line{
+        line-height: 20px;
+        padding-top: 9px;
+    }
+    li.active{
+        .bg-blue;
+    }
+}

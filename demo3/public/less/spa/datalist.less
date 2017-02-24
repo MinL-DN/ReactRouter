@@ -1,0 +1,77 @@
+@import (reference) './app';
+
+.middle-top {
+    .full-width;
+    .line-height(60);
+    .middle-sel {
+        .text-gray-3;
+        .text-center;
+        .left;
+        width: 50%;
+        font-size: 14px;
+
+        .sel-group{
+            display: inline-block;
+            position: relative;
+            margin-left: 8px;
+            select {
+                .line-height(33);
+                width: 86px;
+                border: solid 1px #ddd;
+                appearance:none;
+                -moz-appearance:none;
+                -webkit-appearance:none;
+                padding-left: 6px;
+            }
+            .arrow{
+                position: absolute;
+                top: 50%;
+                margin-top: -7px;
+                right: 0px;
+                width: 28px;
+                height: 15px;
+                border-left: 1px solid #ccc;
+            }
+        }
+    }
+}
+.middle-mid {
+    .bg-skyblue;
+    .full-width;
+    .overflow;
+    span {
+        .text-white;
+        .text-center;
+        .left;
+        .line-height(35);
+        width: 50%;
+        font-size: 14px;
+    }
+    span.col-12{
+        .full-width;
+        border-bottom: 1px solid #F8F8F8;
+    }
+}
+.middle-bottom {
+    table {
+        font-size: 12px;
+        .text-gray-3;
+        .full-width;
+        th {
+            height: 43px;
+            font: bold 13px;
+            .text-gray-3;
+            border-bottom: 1px solid #ccc;
+        }
+
+        td {
+            border-bottom: 1px solid #ccc;
+            height: 38px;
+            .text-center;
+            .low-data {
+                width:50px;
+                display: inline-block;
+            }
+        }
+    }
+}

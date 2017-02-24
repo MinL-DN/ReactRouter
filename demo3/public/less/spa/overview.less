@@ -1,0 +1,123 @@
+@import (reference) './app';
+
+.dashboard li{
+    .full-width;
+    .overflow;
+    .border-box;
+    font-size: 18px;
+    padding: 22px 0;
+    border-bottom: 8px solid #e9ecee;
+    .panel{
+        .text-center;
+        .left;
+        width: 49%;
+        .text-gray-6{
+            font-size:19px;
+        }
+    }
+    .line{
+        .bg-gray-c;
+        .left;
+        width: 1px;
+        height: 45px;
+        margin-top: 10px;
+    }
+
+    &.col-4 .panel{
+        width: 33%;
+    }
+}
+.color-cue {
+    .full-width;
+    .overflow;
+    margin-top: 10px;
+    li {
+        .left;
+        .text-gray-9;
+        .line-height(12);
+        font-size: 12px;
+        .cue{
+            .left;
+            display: inline-block;
+            margin-right: 4px;
+            width: 12px;
+            height: 12px;
+        }
+        .cue-red {
+            .cue;
+            .bg-red;
+            margin-left: 15px;
+        }
+        .cue-blue {
+            .cue;
+            .bg-skyblue;
+            margin-left: 12px;
+        }
+    }
+}
+.title {
+    .text-gray-3;
+    .full-width;
+    .text-center;
+    margin-top: 28px;
+    font-size: 17px;
+}
+.mid{
+    .full-width;
+    .mid-title{
+        .text-gray-3;
+        font-size: 14px;
+        padding: 28px 0 14px 30px;
+    }
+    .mid-body{
+        .col-p{
+            .col{
+                *{
+                    .left;
+                }
+                .overflow;
+                .static{
+                    .text-right;
+                    .line-height(16);
+                    width:24%;
+                }
+                .p-p{
+                    width: 50%;
+                    box-sizing: border-box;
+                    display: inline-block;
+                    padding-left: 11px;
+                    p{
+                        height: 16px;
+                        position: relative;
+                        span{
+                            position: absolute;
+                            top: 0;
+                            right: -70px;
+                            .line-height(16);
+                            width: 65px;
+                        }
+                    }
+                }
+            }
+            .col-up{
+                .col;
+                p{
+                    .bg-red;
+                }
+            }
+            .col-down{
+                .col;
+                p{
+                    .bg-skyblue;
+                }
+            }
+        }
+    }
+}
+.mid-hr {
+    border: none;
+    background-color: #ccc;
+    height: 1px ;
+    width: 88%;
+    margin: 30px auto;
+}
